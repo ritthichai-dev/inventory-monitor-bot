@@ -1,0 +1,27 @@
+# Local product URLs and check history
+/data/*
+!/data/.gitkeep
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Credentials, local configs, editors
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*creds*.json
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
